@@ -1,0 +1,21 @@
+```
+# Glucometer Utilities rrdexport
+
+The rrdexport i created for personal use.
+I think it is fine to see the data in a graph or graphs for the last 7 days.
+
+Right now i have it only tested with glucometers I own.
+I connot guarranty that the graphs are correct for every glucometer.
+
+## Usage / Prerequisites
+
+as the primary Prerequisites you need to install / enable the python 3 and the rrd module.
+
+for OpenSuSE:
+zypper in python-pyrrd python-rrdtool python-setuptools rrdtool rrdtool-devel python3-devel
+
+enabled the python 3 rrtool module with the following command:
+
+pip3 install rrdtool
+
+```
